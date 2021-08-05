@@ -15,7 +15,11 @@ export const ApplicationViews = () => {
   <CommentProvider>
       <Route exact path="/home">
         
-        <div class="home">Hunters and Hauntings is a web app dedicated to helping paranormal investigators identify and erradicate hauntings and other explained events. Here, you can identify different types of ghosts based on evidence, ask questions to other people in the field, and connect with others. Happy hunting!</div>
+        <div class="home">Hunters and Hauntings is a web app dedicated to helping paranormal investigators of the game Phasmophobia. Here, you can identify different types of ghosts based on evidence, ask questions to other people in the gaming field, and connect with others. Happy hunting!</div>
+      </Route>
+      <Route exact path="/">
+        
+        <div class="home">Hunters and Hauntings is a web app dedicated to helping paranormal investigators of the game Phasmophobia. Here, you can identify different types of ghosts based on evidence, ask questions to other people in the gaming field, and connect with others. Happy hunting!</div>
       </Route>
       <Route exact path="/questions">
         <QuestionList />
