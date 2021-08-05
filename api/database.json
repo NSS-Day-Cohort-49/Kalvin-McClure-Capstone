@@ -1,0 +1,375 @@
+{
+  "users": [
+    {
+      "email": "msteph03@leeu.edu",
+      "name": "Kalvin McClure",
+      "id": 6
+    },
+    {
+      "id": 1,
+      "email": "joshua@stewart.com",
+      "name": "Joshua Stewart"
+    },
+    {
+      "id": 2,
+      "email": "matt@xiong.com",
+      "name": "Matt Xiong"
+    },
+    {
+      "id": 3,
+      "email": "ian@james.com",
+      "name": "Ian James"
+    },
+    {
+      "id": 4,
+      "email": "ramiro@ramirez-sanchez.com",
+      "name": "Ramiro Ramirez-Sanchez"
+    },
+    {
+      "id": 5,
+      "email": "kal@mcclure.com",
+      "name": "Kal McClure"
+    }
+  ],
+  "ghosts": [
+    {
+      "id": 1,
+      "name": "poltergeist",
+      "description": "Can throw multiple objects at once. Weakness is empty rooms"
+    },
+    {
+      "id": 2,
+      "name": "banshee",
+      "description": "Targets one player at a time (that is terrifying). Weakness is the crucifix"
+    },
+    {
+      "id": 3,
+      "name": "Jinn",
+      "description": "The further you are away, the faster a Jinn is. Its weakness is turning off a location’s power source"
+    },
+    {
+      "id": 4,
+      "name": "spirit",
+      "description": "Most common type of ghost. Its weakness is using smudge sticks to prevent attacks"
+    },
+    {
+      "id": 5,
+      "name": "wraith",
+      "description": "Footsteps cannot be traced. Its weakness is salt"
+    },
+    {
+      "id": 6,
+      "name": "phantom",
+      "description": "Looking at a phantom will cause your sanity to drop. Its weakness is taking its photo will cause it to disappear"
+    },
+    {
+      "id": 7,
+      "name": "mare",
+      "description": "Increased attacks in the dark. Its weakness is light"
+    },
+    {
+      "id": 8,
+      "name": "revenant",
+      "description": "Fast when hunting. Its weakness is that its slow when you are hidden"
+    },
+    {
+      "id": 9,
+      "name": "shade",
+      "description": "Hard to find. Its weakness is that a shade won’t hunt if players are in groups"
+    },
+    {
+      "id": 10,
+      "name": "demon",
+      "description": "Will attack aggressively. Its weakness is that asking a question on a ouija board won’t lower a player’s sanity"
+    },
+    {
+      "id": 11,
+      "name": "yurei",
+      "description": "Affects player sanity more than normal. Its weakness is using a smudge stick to prevent it from moving"
+    },
+    {
+      "id": 12,
+      "name": "oni",
+      "description": "Can move objects quickly. Its weakness is that its active when more players are nearby"
+    }
+  ],
+  "evidence": [
+    {
+      "id": 1,
+      "name": "fingerprints"
+    },
+    {
+      "id": 2,
+      "name": "freezing temperatures"
+    },
+    {
+      "id": 3,
+      "name": "spirit box"
+    },
+    {
+      "id": 4,
+      "name": "EMF level 5"
+    },
+    {
+      "id": 5,
+      "name": "ghost orbs"
+    },
+    {
+      "id": 6,
+      "name": "ghost writing"
+    }
+  ],
+  "ghostEvidence": [
+    {
+      "id": 1,
+      "ghostId": 1,
+      "evidenceId": 3
+    },
+    {
+      "id": 2,
+      "ghostId": 1,
+      "evidenceId": 1
+    },
+    {
+      "id": 3,
+      "ghostId": 1,
+      "evidenceId": 5
+    },
+    {
+      "id": 4,
+      "ghostId": 2,
+      "evidenceId": 4
+    },
+    {
+      "id": 5,
+      "ghostId": 2,
+      "evidenceId": 1
+    },
+    {
+      "id": 6,
+      "ghostId": 2,
+      "evidenceId": 2
+    },
+    {
+      "id": 7,
+      "ghostId": 3,
+      "evidenceId": 3
+    },
+    {
+      "id": 8,
+      "ghostId": 3,
+      "evidenceId": 5
+    },
+    {
+      "id": 9,
+      "ghostId": 3,
+      "evidenceId": 4
+    },
+    {
+      "id": 10,
+      "ghostId": 4,
+      "evidenceId": 3
+    },
+    {
+      "id": 11,
+      "ghostId": 4,
+      "evidenceId": 1
+    },
+    {
+      "id": 12,
+      "ghostId": 4,
+      "evidenceId": 6
+    },
+    {
+      "id": 13,
+      "ghostId": 5,
+      "evidenceId": 1
+    },
+    {
+      "id": 14,
+      "ghostId": 5,
+      "evidenceId": 2
+    },
+    {
+      "id": 15,
+      "ghostId": 5,
+      "evidenceId": 3
+    },
+    {
+      "id": 16,
+      "ghostId": 6,
+      "evidenceId": 4
+    },
+    {
+      "id": 17,
+      "ghostId": 6,
+      "evidenceId": 5
+    },
+    {
+      "id": 18,
+      "ghostId": 6,
+      "evidenceId": 2
+    },
+    {
+      "id": 19,
+      "ghostId": 7,
+      "evidenceId": 3
+    },
+    {
+      "id": 20,
+      "ghostId": 7,
+      "evidenceId": 5
+    },
+    {
+      "id": 21,
+      "ghostId": 7,
+      "evidenceId": 2
+    },
+    {
+      "id": 22,
+      "ghostId": 8,
+      "evidenceId": 4
+    },
+    {
+      "id": 23,
+      "ghostId": 8,
+      "evidenceId": 1
+    },
+    {
+      "id": 24,
+      "ghostId": 8,
+      "evidenceId": 6
+    },
+    {
+      "id": 25,
+      "ghostId": 9,
+      "evidenceId": 4
+    },
+    {
+      "id": 26,
+      "ghostId": 9,
+      "evidenceId": 5
+    },
+    {
+      "id": 27,
+      "ghostId": 9,
+      "evidenceId": 6
+    },
+    {
+      "id": 28,
+      "ghostId": 10,
+      "evidenceId": 3
+    },
+    {
+      "id": 29,
+      "ghostId": 10,
+      "evidenceId": 6
+    },
+    {
+      "id": 30,
+      "ghostId": 10,
+      "evidenceId": 2
+    },
+    {
+      "id": 31,
+      "ghostId": 11,
+      "evidenceId": 5
+    },
+    {
+      "id": 32,
+      "ghostId": 11,
+      "evidenceId": 6
+    },
+    {
+      "id": 33,
+      "ghostId": 11,
+      "evidenceId": 2
+    },
+    {
+      "id": 34,
+      "ghostId": 12,
+      "evidenceId": 4
+    },
+    {
+      "id": 35,
+      "ghostId": 12,
+      "evidenceId": 3
+    },
+    {
+      "id": 36,
+      "ghostId": 12,
+      "evidenceId": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "questionTitle": "Evidence not Listed?",
+      "message": "Elit sed vulputate mi sit amet mauris commodo quis. Turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus. Lacinia at quis risus sed vulputate. Nunc sed id semper risus in hendrerit gravida. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Turpis cursus in hac habitasse platea. Sodales ut eu sem integer. Tristique senectus et netus et malesuada fames ac. Urna condimentum mattis pellentesque id nibh tortor. Nunc faucibus a pellentesque sit. Tortor condimentum lacinia quis vel eros donec ac odio. Tempus urna et pharetra pharetra massa massa. Velit ut tortor pretium viverra. Cras pulvinar mattis nunc sed blandit libero."
+    },
+    {
+      "userId": 5,
+      "questionTitle": "Ghost Never Hunted?",
+      "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "questionTitle": "Seeking New Member",
+      "message": "Malesuada nunc vel risus commodo viverra maecenas accumsan. Eget mi proin sed libero enim sed faucibus turpis in. Mus mauris vitae ultricies leo integer. Est sit amet facilisis magna etiam tempor orci eu. Nec nam aliquam sem et. Tincidunt vitae semper quis lectus nulla at. Orci sagittis eu volutpat odio facilisis mauris. Felis imperdiet proin fermentum leo vel orci porta non. Blandit cursus risus at ultrices mi tempus imperdiet. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Pretium lectus quam id leo in. Amet mattis vulputate enim nulla aliquet porttitor lacus. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Posuere ac ut consequat semper viverra nam libero. Nec feugiat nisl pretium fusce id velit ut.",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "message": "test",
+      "userId": 1,
+      "questionId": 1
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "questionId": 2,
+      "message": "ghfg dfgdfg"
+    },
+    {
+      "userId": 5,
+      "message": "",
+      "id": 5
+    },
+    {
+      "userId": 5,
+      "message": "",
+      "id": 6
+    },
+    {
+      "userId": 5,
+      "message": "",
+      "id": 7
+    },
+    {
+      "userId": 5,
+      "message": "",
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "message": "fghfghfgh",
+      "id": 9
+    },
+    {
+      "userId": 5,
+      "questionId": 3,
+      "message": "asdfasdf",
+      "id": 11
+    },
+    {
+      "userId": 5,
+      "questionId": 2,
+      "message": "jdf dfgdfg",
+      "id": 12
+    }
+  ]
+}

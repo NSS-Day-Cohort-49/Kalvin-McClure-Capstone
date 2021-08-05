@@ -1,0 +1,23 @@
+.question {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 2em;
+    
+}
+
+.borderQuestion {
+    border: 1px solid blue;
+    padding: 2em;
+}
+
+.title {
+    text-align: center;
+}
+
+.commentBox {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 3em;
+    border: 1px solid blue;
+}
