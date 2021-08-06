@@ -1,9 +1,9 @@
 import React, { useState, createContext } from "react"
 
-// The context is imported and used by individual components that need data
+
 export const QuestionContext = createContext()
 
-// This component establishes what data can be used.
+
 export const QuestionProvider = (props) => {
     const [questions, setQuestions] = useState([])
     const [ searchTerms, setSearchTerms ] = useState("")

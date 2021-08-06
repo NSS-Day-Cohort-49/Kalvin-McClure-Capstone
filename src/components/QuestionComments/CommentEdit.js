@@ -6,7 +6,7 @@ import "./Comments.css"
 export const CommentForm = () => {
     const { updateComment, getCommentById, getComments } = useContext(CommentContext)
     const loggedInUser = sessionStorage.getItem("huntersHauntings_user")
-    //for edit, hold on to state of eventObj in this view
+    
     const [comment, setComment ] = useState({
         message: "",
         userId: 0,
@@ -30,21 +30,19 @@ export const CommentForm = () => {
       })
     }, [])
 
-    //when field changes, update state. This causes a re-render and updates the view.
-    //Controlled component
+    
     const handleControlledInputChange = (event) => {
       
       const newComment = { ...comment }
-      //event is an object with properties.
-      //set the property to the new value
+      
       newComment[event.target.id] = event.target.value
-      //update state
+      
       setComment(newComment)
     }
 
     const handleSaveComment = () => {
         if (commentId) {
-          //PUT - update
+          
           updateComment({
               id: comment.id,
               userId: parseInt(loggedInUser),
@@ -70,7 +68,7 @@ export const CommentForm = () => {
                 </div>
                 <button className="btn btn-primary"
           onClick={comment => {
-            comment.preventDefault() // Prevent browser from submitting the form and refreshing the page
+            comment.preventDefault() 
             handleSaveComment()
           }}>
         Save Comment</button>

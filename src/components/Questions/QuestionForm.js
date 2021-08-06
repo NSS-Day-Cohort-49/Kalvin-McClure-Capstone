@@ -6,7 +6,7 @@ import "./Questions.css"
 export const QuestionForm = () => {
     const { addQuestion, updateQuestion, getQuestionById, getQuestions } = useContext(QuestionContext)
     const loggedInUser = sessionStorage.getItem("huntersHauntings_user")
-    //for edit, hold on to state of eventObj in this view
+    
     const [question, setQuestion ] = useState({
       questionTitle: "",
       message: "",
@@ -34,22 +34,20 @@ export const QuestionForm = () => {
       })
     }, [])
 
-    //when field changes, update state. This causes a re-render and updates the view.
-    //Controlled component
+    
     const handleControlledInputChange = (event) => {
       
       const newQuestion = { ...question }
-      //event is an object with properties.
-      //set the property to the new value
+      
       newQuestion[event.target.id] = event.target.value
-      //update state
+      
       setQuestion(newQuestion)
     }
 
     const handleSaveQuestion = () => {
         setIsLoading(true);
         if (questionId) {
-          //PUT - update
+          
           updateQuestion({
               id: question.id,
               userId: parseInt(loggedInUser),
@@ -58,7 +56,7 @@ export const QuestionForm = () => {
           }, questionId)
           .then(() => history.push(`/questions/detail/${questionId}`))
         } else {
-          //POST - add
+          
           addQuestion({
             userId: parseInt(loggedInUser),
             questionTitle: question.questionTitle,
@@ -92,7 +90,7 @@ export const QuestionForm = () => {
         <button className="btn btn-primary"
           disabled={isLoading}
           onClick={question => {
-            question.preventDefault() // Prevent browser from submitting the form and refreshing the page
+            question.preventDefault() 
             handleSaveQuestion()
           }}>
         {questionId ? "Save Question" : "Ask Question" }</button>

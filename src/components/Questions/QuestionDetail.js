@@ -8,7 +8,7 @@ import { CommentList } from "../QuestionComments/CommentList"
 export const QuestionDetail = () => {
 
 const { getQuestionById, releaseQuestion } = useContext(QuestionContext)
-const { addComment, getCommentById, getComments } = useContext(CommentContext)
+const { addComment } = useContext(CommentContext)
 const loggedInUser = sessionStorage.getItem("huntersHauntings_user")
 
 	const [question, setQuestion] = useState({})
@@ -45,10 +45,9 @@ const handleRelease = () => {
     const handleControlledInputChange = (event) => {
       
       const newComment = { ...comment }
-      //event is an object with properties.
-      //set the property to the new value
+      
       newComment[event.target.id] = event.target.value
-      //update state
+      
       setComment(newComment)
     }
 
